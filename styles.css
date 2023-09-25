@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-color: #f0f0f0;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.container{
+    width: 600px;
+    margin: auto;
+}
+
+.post-header {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  #titulo {
+    margin-right: 478px;
+  }
+
+  .fa-ellipsis-vertical {
+    font-size: 1rem; 
+  }
+
+  .post-header h4 {
+    margin: 0;
+  }
+  
+  .post-header p {
+    margin: 0;
+  }
+
+.post-img{
+    width: 100%;
+}
+
+.post-img img {
+    width: 100%; 
+    height: auto; 
+  }
+
+.post-icons{
+    padding-top: 20px;
+    display: flex;
+}
+
+.post-icons i:not(:last-child) {
+    margin-right: 10px; /* Espacio entre los primeros tres íconos */
+}
+
+.post-icons i:nth-child(4) {
+    margin-left: auto;
+}
+
+.post-body{
+    margin-top: 25px;
+}
+
+.post-body parrafo-uno ,b:hover {
+    cursor: pointer; 
+}
+
+
+
+h4{
+    margin-bottom: 0;
+}
+
+#rigoberto{
+    margin-top: 0;
+}
